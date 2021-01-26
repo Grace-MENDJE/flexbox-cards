@@ -1,0 +1,73 @@
+.populaire{
+    padding: 0%;
+    margin:0%;
+    background-color:#F2F2F2
+}
+
+.titlepopulaire{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    
+}
+
+.staticIcon{
+  
+    display: flex;   
+    color: black;
+    box-sizing: border-box;
+}
+
+.titlepopulaireIcon{
+    display: flex;
+    /*align-self: flex-end;*/
+    color: black;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 5px;
+}
+
+.populairecards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    padding: 0%;
+    margin: 0%;
+    width: auto;
+    
+ 
+}
+
+.popularcard{
+    display: flex;
+    width: 30%;
+    height: 214px;
+    border-radius: 10px;
+    flex-direction: row;    
+    margin: 10px;
+    background-color: white;
+}
+
+.popularTitle{
+    display: flex;
+    flex-wrap: nowrap;    
+}
+
+i{
+    display: flex;
+    color: #0065FC;
+    padding-top: 60px;
+    
+}
+
+.fivestar{
+    color: #DEEBFF;
+}
